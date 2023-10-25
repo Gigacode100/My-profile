@@ -1,0 +1,158 @@
+body {
+    background-color: #1b1b32;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+
+}
+*{
+    
+    box-sizing: border-box;
+}
+#About, #Hobby, #City, #Ambition, #Around {
+    border: 2px solid white;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.Mainpic {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border: 5px solid black;
+    text-align: center;
+    
+
+}
+#Intropic {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid black;
+    text-align: center;
+}
+#Introschool {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 5px solid green;
+    text-align: center;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.navbar {
+    background-color: #1b1b32;
+    font-family:'Poppins', sans-serif;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border: 2px solid white;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+}
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+.nav li a:hover {
+    color: red;
+}
+
+/*ABOVE IS NAVIGATION PART */
+
+.container,.Footerbottom {
+    background-color: #1b1b32;
+    border: 3px solid white;
+    
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: justify;
+    padding-bottom: 7px;
+    
+}
+.Footersec1, .Footersec2 , .Footersec3 {
+    margin-right: 10px;
+    padding-right: 40px;
+   
+}
+.Footersec1 {
+    padding-left: 10px;
+}
+.foottitle {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.Footersec1 a {
+    color: blue;
+    text-decoration: none;
+}
+.Footersec1 a:hover {
+    color: red;
+}
+.Footersec1 a:active {
+    color: white
+}
+.Footersec3 a {
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+
+}
+.Footersec3 a:hover {
+    color: red;
+}
+.Footersec3 a:active {
+    color: white
+}
+.container h3 {
+    text-align: bottom;
+}
+.Footerbottom p{
+    color: gray;
+    
+}
+.Footerbottom {
+    text-align: center;
+}
+.Footersec3 {
+    text-align: center;
+}
+#Around a {
+    text-decoration: none;
+    color: blue;
+}
+#Around a:hover {
+    color: white;
+}
